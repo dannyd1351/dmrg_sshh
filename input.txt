@@ -1,0 +1,27 @@
+# Input parameters for the Density Matrix Renormalization Group (DMRG) algorithm
+# This file defines the model type and numerical parameters required to run the simulation.
+
+# MODEL SELECTION:
+# Choose from: spinless, SSH, Hubbard, SSHH (Su-Schrieffer-Heeger-Hubbard)
+Model = spinless  
+
+# NUMBER OF STATES KEPT:
+# m: Number of states kept during finite-size DMRG sweeps (affects accuracy & runtime).
+m = 10
+
+# WARM-UP STATES:
+# m_warm: Number of states kept during infinite-size DMRG (initialization step).
+m_warm = 10  
+
+# NUMBER OF SWEEPS:
+# N_sweeps: Number of finite DMRG sweeps (more sweeps improve convergence).
+N_sweeps = 4  
+
+# SYSTEM SIZE:
+# L: Number of sites in the 1D lattice.
+L = 4  
+
+# MEASUREMENTS:
+# Choose which quantity to measure: N (particle number), Sz (magnetization), etc.
+Measure = N  
+

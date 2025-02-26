@@ -1,2 +1,3 @@
-# dmrg_sshh
-Density Matrix Renormalization Group (DMRG) implementation for spinless (spinfull) fermionic models
+# DMRG Project
+This repository contains a Python implementation of the Density Matrix Renormalization Group (DMRG) algorithm for spinless and spinfull fermionic models.
+
