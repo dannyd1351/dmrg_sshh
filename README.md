@@ -37,6 +37,7 @@ The code currently supports the following fermionic Hamiltonians:
 To use this repository, clone it and install dependencies:
 
 ```bash
+$ pip install numpy scipy
 $ git clone https://github.com/dannyd1351/dmrg_sshh.git
 $ cd dmrg
 ```
